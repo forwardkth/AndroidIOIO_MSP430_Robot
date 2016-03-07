@@ -1,0 +1,2915 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V5.2.1.11                                          #
+#                                                                              #
+#           Link time     =  20/Oct/2012  21:40:13                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\List\OS.map"                            #
+#           Output file 1 =  "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Exe\OS.d43"                             #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.6                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\HAL_FLASH.r43"                      #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\HAL_PMAP.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\HAL_PMM.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\HAL_TLV.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\HAL_UCS.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\app.r43"                            #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\app_hooks.r43"                      #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\bsp.r43"                            #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\cpu_core.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\cstartup.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\hal_board.r43"                      #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\hal_buttons.r43"                    #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\hal_lcd.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\hal_rf.r43"                         #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\hal_usb.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\lib_ascii.r43"                      #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\lib_mem.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\lib_str.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_core.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_cpu_a.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_cpu_c.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_dbg.r43"                         #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_flag.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_mbox.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_mem.r43"                         #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_mutex.r43"                       #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_q.r43"                           #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_sem.r43"                         #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_task.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_time.r43"                        #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Obj\os_tmr.r43"                         #
+#                            -o                                                #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\Exe\OS.d43"                             #
+#                            -l                                                #
+#                            "F:\embeded system\ucos2\ucOS ii\TI msp430\Micriu #
+#                            m\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS #
+#                            -II\Debug\List\OS.map"                            #
+#                            -xmsn                                             #
+#                            "-IF:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 6.0 Evaluation\430\LIB\"                        #
+#                            -f                                                #
+#                            "F:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.0 Evaluation\430\CONFIG\lnk430F5438A.xcl"       #
+#                            (-cmsp430 -D?CPU30_OFFSET=2 -QCODE_I=CODE_ID      #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,DATA16_HEAP+_D #
+#                            ATA16_HEAP_SIZE=1C00-5BFF                         #
+#                            -Z(DATA)CODE_I                                    #
+#                            -Z(DATA)DATA20_I,DATA20_Z,DATA20_N,DATA20_HEAP+_D #
+#                            ATA20_HEAP_SIZE                                   #
+#                            -Z(DATA)CSTACK+_STACK_SIZE#                       #
+#                            -Z(CONST)INFO=1800-19FF                           #
+#                            -Z(CONST)INFOA=1980-19FF                          #
+#                            -Z(CONST)INFOB=1900-197F                          #
+#                            -Z(CONST)INFOC=1880-18FF                          #
+#                            -Z(CONST)INFOD=1800-187F                          #
+#                            -Z(CODE)CSTART,ISR_CODE=5C00-FF7F                 #
+#                            -Z(CONST)DATA16_C,DATA16_ID,DIFUNCT,CHECKSUM=5C00 #
+#                            -FF7F                                             #
+#                            -P(CODE)CODE=5C00-FF7F,10000-45BFF                #
+#                            -Z(CODE)CODE_ID                                   #
+#                            -Z(CONST)DATA20_C,DATA20_ID=5C00-FF7F,10000-45BFF #
+#                            -Z(CODE)INTVEC=FF80-FFFF                          #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            "F:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.0 Evaluation\430\config\multiplier32_loc2.xcl"  #
+#                            (-e?Mul8HwLoc2=?Mul8 -e?Mul16HwLoc2=?Mul16        #
+#                            -e?Mul16to32uHwLoc2=?Mul16to32u                   #
+#                            -e?Mul16to32sHwLoc2=?Mul16to32s                   #
+#                            -e?Mul32Hw32Loc2=?Mul32                           #
+#                            -e?Mul64Hw32Loc2=_Mul64i                          #
+#                            -e?Mul32u32uto64iHw32Loc2=_Mul32u32uto64i         #
+#                            -e?Mul32fHwLoc2=_Mul32f                           #
+#                            -e_Mul64fHwPtrLoc2=_Mul64fPtr) -D_STACK_SIZE=A0   #
+#                            -rt                                               #
+#                            "F:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.0 Evaluation\430\LIB\DLIB\dl430xldn.r43"        #
+#                            -D_DATA16_HEAP_SIZE=A0 -s __program_start         #
+#                            -D_DATA20_HEAP_SIZE=50                            #
+#                                                                              #
+#                           Copyright (C) 1987-2011 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           5C00  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __core                     = 430X
+  __data_model               = large
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 64
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _DATA20_HEAP_SIZE       0050 
+           _DATA16_HEAP_SIZE       00A0 
+           _STACK_SIZE             00A0 
+           ?CPU30_OFFSET           0002 
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\HAL_FLASH.r43
+  PROGRAM MODULE, NAME : HAL_FLASH
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0140 - 0141 (0x2 bytes), align: 0
+  Segment part 1. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_FCTL1_L              0140 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           FCTL1                   0140 
+           FCTL1_H                 0141 
+           FCTL1_L                 0140 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0144 - 0145 (0x2 bytes), align: 0
+  Segment part 2. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_FCTL3_L              0144 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           FCTL3                   0144 
+           FCTL3_H                 0145 
+           FCTL3_L                 0144 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\HAL_PMAP.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\HAL_PMM.r43
+  PROGRAM MODULE, NAME : HAL_PMM
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0120 - 0121 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   SetVCore
+                                                   SetVCoreDown
+                                                   SetVCoreUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PMMCTL0_L            0120 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PMMCTL0                 0120 
+           PMMCTL0_H               0121 
+           PMMCTL0_L               0120 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0124 - 0125 (0x2 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SVSMHCTL_L           0124 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SVSMHCTL                0124 
+           SVSMHCTL_H              0125 
+           SVSMHCTL_L              0124 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0126 - 0127 (0x2 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SVSMLCTL_L           0126 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SVSMLCTL                0126 
+           SVSMLCTL_H              0127 
+           SVSMLCTL_L              0126 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 012C - 012D (0x2 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PMMIFG_L             012C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PMMIFG                  012C 
+           PMMIFG_H                012D 
+           PMMIFG_L                012C 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 012E - 012F (0x2 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PMMRIE_L             012E 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PMMRIE                  012E 
+           PMMRIE_H                012F 
+           PMMRIE_L                012E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 68B2 - 6915 (0x64 bytes), align: 1
+  Segment part 8.             Intra module refs:   SetVCore
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SetVCoreUp              68B2 
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 714A - 7153 (0xa bytes), align: 1
+  Segment part 9.             Intra module refs:   ?Subroutine2
+                                                   SetVCoreDown
+                                                   SetVCoreUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine4            714A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 713E - 7149 (0xc bytes), align: 1
+  Segment part 10.            Intra module refs:   SetVCoreUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            713E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7004 - 701D (0x1a bytes), align: 1
+  Segment part 11.            Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            7004 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6DF4 - 6E25 (0x32 bytes), align: 1
+  Segment part 12.            Intra module refs:   SetVCoreDown
+                                                   SetVCoreUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            6DF4 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70DE - 70ED (0x10 bytes), align: 1
+  Segment part 13.            Intra module refs:   ?Subroutine0
+                                                   SetVCoreUp
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine3            70DE 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6D7E - 6DB9 (0x3c bytes), align: 1
+  Segment part 7.             Intra module refs:   SetVCore
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SetVCoreDown            6D7E 
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6D04 - 6D41 (0x3e bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SetVCore                6D04            BSP_Init (bsp)
+               calls direct
+               CSTACK = 00000000 ( 0000000C )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\HAL_TLV.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\HAL_UCS.r43
+  PROGRAM MODULE, NAME : HAL_UCS
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0102 - 0103 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SFRIFG1_L            0102 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SFRIFG1                 0102 
+           SFRIFG1_H               0103 
+           SFRIFG1_L               0102 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0160 - 0161 (0x2 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL0_L            0160 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL0                 0160 
+           UCSCTL0_H               0161 
+           UCSCTL0_L               0160 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0162 - 0163 (0x2 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL1_L            0162 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL1                 0162 
+           UCSCTL1_H               0163 
+           UCSCTL1_L               0162 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0164 - 0165 (0x2 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL2_L            0164 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL2                 0164 
+           UCSCTL2_H               0165 
+           UCSCTL2_L               0164 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0168 - 0169 (0x2 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   BSP_Init (bsp)
+                                                   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL4_L            0168 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL4                 0168 
+           UCSCTL4_H               0169 
+           UCSCTL4_L               0168 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 016C - 016D (0x2 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL6_L            016C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL6                 016C 
+           UCSCTL6_H               016D 
+           UCSCTL6_L               016C 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 016E - 016F (0x2 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   Init_FLL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL7_L            016E 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL7                 016E 
+           UCSCTL7_H               016F 
+           UCSCTL7_L               016E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6DBA - 6DC5 (0xc bytes), align: 1
+  Segment part 20.            Intra module refs:   Init_FLL
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            6DBA 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6DC6 - 6DF3 (0x2e bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Init_FLL_Settle         6DC6            BSP_Init (bsp)
+               calls direct
+               CSTACK = 00000000 ( 00000006 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 60B0 - 6185 (0xd6 bytes), align: 1
+  Segment part 9.             Intra module refs:   Init_FLL_Settle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Init_FLL                60B0 
+               CSTACK = 00000000 ( 00000008 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\app.r43
+  PROGRAM MODULE, NAME : app
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA20_Z
+  Relative segment, address: 1D1C - 1F1B (0x200 bytes), align: 1
+  Segment part 6.             Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTaskStartStk         1D1C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 1F1C - 211B (0x200 bytes), align: 1
+  Segment part 7.             Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask1Stk             1F1C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 211C - 231B (0x200 bytes), align: 1
+  Segment part 8.             Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask2Stk             211C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 231C - 251B (0x200 bytes), align: 1
+  Segment part 9.             Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask3Stk             231C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3B8E - 3B9F (0x12 bytes), align: 0
+  Segment part 10.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+                                                   AppUpdatePB
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt0              3B8E 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BA0 - 3BB1 (0x12 bytes), align: 0
+  Segment part 11.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+                                                   AppUpdatePB
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt1              3BA0 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BB2 - 3BC3 (0x12 bytes), align: 0
+  Segment part 12.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+                                                   AppUpdatePB
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt2              3BB2 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BC4 - 3BD5 (0x12 bytes), align: 0
+  Segment part 13.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt3              3BC4 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BD6 - 3BE7 (0x12 bytes), align: 0
+  Segment part 14.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt4              3BD6 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BE8 - 3BF9 (0x12 bytes), align: 0
+  Segment part 15.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+                                                   AppTask1
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt5              3BE8 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3BFA - 3C0B (0x12 bytes), align: 0
+  Segment part 16.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt6              3BFA 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3C0C - 3C1D (0x12 bytes), align: 0
+  Segment part 17.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+                                                   AppTask2
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt7              3C0C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3C1E - 3C2F (0x12 bytes), align: 0
+  Segment part 18.            Intra module refs:   AppDispInit
+                                                   AppDispUpdate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt8              3C1E 
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1C00 - 1CA1 (0xa2 bytes), align: 0
+  Segment part 19.            Intra module refs:   AppDispInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppLCDTxt               1C00 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6B9C - 6BEB (0x50 bytes), align: 1
+  Segment part 35.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    6B9C            Segment part 19 (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000016 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70CC - 70D3 (0x8 bytes), align: 1
+  Segment part 30.            Intra module refs:   AppTask1
+                                                   AppTask2
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            70CC 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70D4 - 70DD (0xa bytes), align: 1
+  Segment part 31.            Intra module refs:   ?Subroutine1
+                                                   AppTask3
+                                                   AppTaskStart
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6FE8 - 7003 (0x1c bytes), align: 1
+  Segment part 34.            Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTaskStart            6FE8 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 63E6 - 649B (0xb6 bytes), align: 1
+  Segment part 33.            Intra module refs:   AppTaskStart
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTaskCreate           63E6 
+               calls direct
+               CSTACK = 00000000 ( 0000003A )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F94 - 6FAF (0x1c bytes), align: 1
+  Segment part 32.            Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask1                6F94 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6FB0 - 6FCB (0x1c bytes), align: 1
+  Segment part 29.            Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask2                6FB0 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70A4 - 70B7 (0x14 bytes), align: 1
+  Segment part 28.            Intra module refs:   AppTaskCreate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppTask3                70A4 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 654E - 65E1 (0x94 bytes), align: 1
+  Segment part 26.            Intra module refs:   AppTaskStart
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppDispInit             654E 
+               CSTACK = 00000000 ( 00000014 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7168 - 7171 (0xa bytes), align: 1
+  Segment part 27.            Intra module refs:   AppDispInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine3            7168 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 684E - 68B1 (0x64 bytes), align: 1
+  Segment part 24.            Intra module refs:   AppTaskStart
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppDispUpdate           684E 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71B8 - 71BF (0x8 bytes), align: 1
+  Segment part 25.            Intra module refs:   AppDispUpdate
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            71B8 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6326 - 63E5 (0xc0 bytes), align: 1
+  Segment part 23.            Intra module refs:   ?Subroutine1
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppFormatDec            6326 
+               calls direct
+               CSTACK = 00000000 ( 0000002E )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 69DA - 6A37 (0x5e bytes), align: 1
+  Segment part 21.            Intra module refs:   AppTask3
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           AppUpdatePB             69DA 
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70FC - 7109 (0xe bytes), align: 1
+  Segment part 22.            Intra module refs:   AppUpdatePB
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            70FC 
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7C02 - 7CA3 (0xa2 bytes), align: 0
+  Segment part 20.            Intra module refs:   AppLCDTxt
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7A48 - 7A4F (0x8 bytes), align: 0
+  Segment part 2.             Intra module refs:   main
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7A50 - 7A56 (0x7 bytes), align: 0
+  Segment part 3.             Intra module refs:   AppTaskCreate
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7A57 - 7A5D (0x7 bytes), align: 0
+  Segment part 4.             Intra module refs:   AppTaskCreate
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7A5E - 7A64 (0x7 bytes), align: 0
+  Segment part 5.             Intra module refs:   AppTaskCreate
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\app_hooks.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\bsp.r43
+  PROGRAM MODULE, NAME : bsp
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0100 - 0101 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   BSP_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_SFRIE1_L             0100 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SFRIE1                  0100 
+           SFRIE1_H                0101 
+           SFRIE1_L                0100 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0166 - 0167 (0x2 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   BSP_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCSCTL3_L            0166 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCSCTL3                 0166 
+           UCSCTL3_H               0167 
+           UCSCTL3_L               0166 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 015C - 015D (0x2 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   BSP_Init
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_WDTCTL_L             015C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WDTCTL                  015C 
+           WDTCTL_H                015D 
+           WDTCTL_L                015C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6916 - 6977 (0x62 bytes), align: 1
+  Segment part 18.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BSP_Init                6916            AppTaskStart (app)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71C6 - 71CB (0x6 bytes), align: 1
+  Segment part 17.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BSP_IntDisAll           71C6            main (app)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71DA - 71DD (0x4 bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PB_Rd                   71DA            AppTask3 (app)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71CC - 71D1 (0x6 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LCD_PrintLineCol        71CC            ?Subroutine2 (app)
+                                                   AppDispUpdate (app)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 67E4 - 684D (0x6a bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           BSP_FormatDec           67E4            AppFormatDec (app)
+               CSTACK = 00000000 ( 0000001C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7126 - 7131 (0xc bytes), align: 1
+  Segment part 9.             Intra module refs:   BSP_FormatDec
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            7126 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\cpu_core.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\cstartup.r43
+  LIBRARY MODULE, NAME : ?cstart
+
+Absolute parts
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           __MSP430F5304__         0000 
+  SEGMENTS IN THE MODULE
+  ======================
+CSTACK
+  Relative segment, address: 5B60, align: 1
+  Segment part 1.
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 251C, align: 1
+  Segment part 7.
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1C00, align: 1
+  Segment part 8.
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7C02, align: 1
+  Segment part 9.
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 5C00 - 5C09 (0xa bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         5C00            ?reset_vector (?reset_vector)
+                                                   Absolute parts (?ABS_ENTRY_MOD)
+           ?cstart_begin           5C00 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 5C0A - 5C19 (0x10 bytes), align: 1
+  Segment part 15.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_zero20     5C0A            AppLCDTxt0 (app)
+                                                   AppLCDTxt1 (app)
+                                                   AppLCDTxt2 (app)
+                                                   AppLCDTxt3 (app)
+                                                   AppLCDTxt4 (app)
+                                                   AppLCDTxt5 (app)
+                                                   AppLCDTxt6 (app)
+                                                   AppLCDTxt7 (app)
+                                                   AppLCDTxt8 (app)
+                                                   AppTask1Stk (app)
+                                                   AppTask2Stk (app)
+                                                   AppTask3Stk (app)
+                                                   AppTaskStartStk (app)
+                                                   LCD_MEM (hal_lcd)
+                                                   LcdAddress (hal_lcd)
+                                                   LcdTableAddress (hal_lcd)
+                                                   OSCtxSwCtr (os_core)
+                                                   OSEventFreeList (os_core)
+                                                   OSEventTbl (os_core)
+                                                   OSFlagFreeList (os_core)
+                                                   OSFlagTbl (os_core)
+                                                   OSISRStkPtr (os_cpu_c)
+                                                   OSIdleCtr (os_core)
+                                                   OSIntNesting (os_core)
+                                                   OSLockNesting (os_core)
+                                                   OSMemFreeList (os_core)
+                                                   OSMemTbl (os_core)
+                                                   OSPrioCur (os_core)
+                                                   OSPrioHighRdy (os_core)
+                                                   OSQFreeList (os_core)
+                                                   OSQTbl (os_core)
+                                                   OSRdyGrp (os_core)
+                                                   OSRdyTbl (os_core)
+                                                   OSRunning (os_core)
+                                                   OSTCBCur (os_core)
+                                                   OSTCBFreeList (os_core)
+                                                   OSTCBHighRdy (os_core)
+                                                   OSTCBList (os_core)
+                                                   OSTCBPrioTbl (os_core)
+                                                   OSTCBTbl (os_core)
+                                                   OSTaskCtr (os_core)
+                                                   OSTaskIdleStk (os_core)
+                                                   OSTickStepState (os_core)
+                                                   OSTime (os_core)
+                                                   bufferSize (hal_usb)
+                                                   halUsbReceiveBuffer (hal_usb)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 5C1A - 5C2D (0x14 bytes), align: 1
+  Segment part 16.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_init_copy20     5C1A            AppLCDTxt (app)
+                                                   Draw_Block_Address_Macro (hal_lcd)
+                                                   Draw_Block_Value_Macro (hal_lcd)
+                                                   LcdInitMacro (hal_lcd)
+                                                   backlight (hal_lcd)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: 5C2E - 5C35 (0x8 bytes), align: 1
+  Segment part 19.            Intra module refs:   Segment part 10
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cstart_call_main       5C2E 
+           ?cstart_end             5C36 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?reset_vector
+
+  SEGMENTS IN THE MODULE
+  ======================
+RESET
+  Relative segment, address: FFFE - FFFF (0x2 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?reset_vector           FFFE            Segment part 10 (?cstart)
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\hal_board.r43
+  PROGRAM MODULE, NAME : hal_board
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0202 - 0203 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   halButtonsInit (hal_buttons)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAOUT_L              0202 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAOUT                   0202 
+           PAOUT_H                 0203 
+           PAOUT_L                 0202 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0204 - 0205 (0x2 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   halButtonsInit (hal_buttons)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PADIR_L              0204 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PADIR                   0204 
+           PADIR_H                 0205 
+           PADIR_L                 0204 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 020A - 020B (0x2 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   halButtonsInit (hal_buttons)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PASEL_L              020A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PASEL                   020A 
+           PASEL_H                 020B 
+           PASEL_L                 020A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0222 - 0223 (0x2 bytes), align: 0
+  Segment part 4. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBOUT_L              0222 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBOUT                   0222 
+           PBOUT_H                 0223 
+           PBOUT_L                 0222 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0224 - 0225 (0x2 bytes), align: 0
+  Segment part 5. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBDIR_L              0224 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBDIR                   0224 
+           PBDIR_H                 0225 
+           PBDIR_L                 0224 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 022A - 022B (0x2 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBSEL_L              022A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBSEL                   022A 
+           PBSEL_H                 022B 
+           PBSEL_L                 022A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0242 - 0243 (0x2 bytes), align: 0
+  Segment part 7. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCOUT_L              0242 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCOUT                   0242 
+           PCOUT_H                 0243 
+           PCOUT_L                 0242 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0244 - 0245 (0x2 bytes), align: 0
+  Segment part 8. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCDIR_L              0244 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCDIR                   0244 
+           PCDIR_H                 0245 
+           PCDIR_L                 0244 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0246 - 0247 (0x2 bytes), align: 0
+  Segment part 9. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCREN_L              0246 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCREN                   0246 
+           PCREN_H                 0247 
+           PCREN_L                 0246 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 024A - 024B (0x2 bytes), align: 0
+  Segment part 10. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PCSEL_L              024A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PCSEL                   024A 
+           PCSEL_H                 024B 
+           PCSEL_L                 024A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0262 - 0263 (0x2 bytes), align: 0
+  Segment part 11. ROOT.      Intra module refs:   halLcdBackLightInit (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PDOUT_L              0262 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PDOUT                   0262 
+           PDOUT_H                 0263 
+           PDOUT_L                 0262 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0264 - 0265 (0x2 bytes), align: 0
+  Segment part 12. ROOT.      Intra module refs:   halLcdBackLightInit (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PDDIR_L              0264 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PDDIR                   0264 
+           PDDIR_H                 0265 
+           PDDIR_L                 0264 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 026A - 026B (0x2 bytes), align: 0
+  Segment part 13. ROOT.      Intra module refs:   halLcdBackLightInit (hal_lcd)
+                                                   halLcdInit (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PDSEL_L              026A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PDSEL                   026A 
+           PDSEL_H                 026B 
+           PDSEL_L                 026A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0282 - 0283 (0x2 bytes), align: 0
+  Segment part 14. ROOT.      Intra module refs:   halLcdClearScreen (hal_lcd)
+                                                   halLcdInit (hal_lcd)
+                                                   halLcdSendCommand (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PEOUT_L              0282 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PEOUT                   0282 
+           PEOUT_H                 0283 
+           PEOUT_L                 0282 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0284 - 0285 (0x2 bytes), align: 0
+  Segment part 15. ROOT.      Intra module refs:   halLcdInit (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PEDIR_L              0284 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PEDIR                   0284 
+           PEDIR_H                 0285 
+           PEDIR_L                 0284 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 028A - 028B (0x2 bytes), align: 0
+  Segment part 16. ROOT.      Intra module refs:   halLcdInit (hal_lcd)
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PESEL_L              028A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PESEL                   028A 
+           PESEL_H                 028B 
+           PESEL_L                 028A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 02A2 - 02A3 (0x2 bytes), align: 0
+  Segment part 17. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PFOUT_L              02A2 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PFOUT                   02A2 
+           PFOUT_H                 02A3 
+           PFOUT_L                 02A2 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 02A4 - 02A5 (0x2 bytes), align: 0
+  Segment part 18. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PFDIR_L              02A4 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PFDIR                   02A4 
+           PFDIR_H                 02A5 
+           PFDIR_L                 02A4 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 02AA - 02AB (0x2 bytes), align: 0
+  Segment part 19. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PFSEL_L              02AA 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PFSEL                   02AA 
+           PFSEL_H                 02AB 
+           PFSEL_L                 02AA 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0322 - 0323 (0x2 bytes), align: 0
+  Segment part 20. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PJOUT_L              0322 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PJOUT                   0322 
+           PJOUT_H                 0323 
+           PJOUT_L                 0322 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0324 - 0325 (0x2 bytes), align: 0
+  Segment part 21. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PJDIR_L              0324 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PJDIR                   0324 
+           PJDIR_H                 0325 
+           PJDIR_L                 0324 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\hal_buttons.r43
+  PROGRAM MODULE, NAME : hal_buttons
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0200 - 0201 (0x2 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   halButtonsPressed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAIN_L               0200 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAIN                    0200 
+           PAIN_H                  0201 
+           PAIN_L                  0200 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0206 - 0207 (0x2 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   halButtonsInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAREN_L              0206 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAREN                   0206 
+           PAREN_H                 0207 
+           PAREN_L                 0206 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0218 - 0219 (0x2 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAIES_L              0218 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAIES                   0218 
+           PAIES_H                 0219 
+           PAIES_L                 0218 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 021A - 021B (0x2 bytes), align: 0
+  Segment part 7. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAIE_L               021A 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAIE                    021A 
+           PAIE_H                  021B 
+           PAIE_L                  021A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 021C - 021D (0x2 bytes), align: 0
+  Segment part 8. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PAIFG_L              021C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PAIFG                   021C 
+           PAIFG_H                 021D 
+           PAIFG_L                 021C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7064 - 7079 (0x16 bytes), align: 1
+  Segment part 14.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halButtonsInit          7064            BSP_Init (bsp)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7190 - 7197 (0x8 bytes), align: 1
+  Segment part 13.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halButtonsPressed       7190            PB_Rd (bsp)
+               CSTACK = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\hal_lcd.r43
+  PROGRAM MODULE, NAME : hal_lcd
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0340 - 0341 (0x2 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   halLcdBackLightInit
+                                                   halLcdSetBackLight
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA0CTL                  0340 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0348 - 0349 (0x2 bytes), align: 0
+  Segment part 8. ROOT.       Intra module refs:   halLcdBackLightInit
+                                                   halLcdSetBackLight
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA0CCTL3                0348 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0352 - 0353 (0x2 bytes), align: 0
+  Segment part 9. ROOT.       Intra module refs:   halLcdBackLightInit
+                                                   halLcdSetBackLight
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA0CCR0                 0352 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0358 - 0359 (0x2 bytes), align: 0
+  Segment part 10. ROOT.      Intra module refs:   halLcdBackLightInit
+                                                   halLcdSetBackLight
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           TA0CCR3                 0358 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0660 - 0661 (0x2 bytes), align: 0
+  Segment part 11. ROOT.      Intra module refs:   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB2CTLW0_L          0660 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB2CTLW0               0660 
+           UCB2CTLW0_H             0661 
+           UCB2CTLW0_L             0660 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0666 - 0667 (0x2 bytes), align: 0
+  Segment part 12. ROOT.      Intra module refs:   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB2BRW_L            0666 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB2BRW                 0666 
+           UCB2BRW_H               0667 
+           UCB2BRW_L               0666 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 066A - 066A (0x1 bytes), align: 0
+  Segment part 13. ROOT.      Intra module refs:   halLcdClearScreen
+                                                   halLcdSendCommand
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB2STAT                066A 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 066C - 066C (0x1 bytes), align: 0
+  Segment part 14. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB2RXBUF               066C 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 066E - 066E (0x1 bytes), align: 0
+  Segment part 15. ROOT.      Intra module refs:   halLcdClearScreen
+                                                   halLcdSendCommand
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB2TXBUF               066E 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 067C - 067D (0x2 bytes), align: 0
+  Segment part 16. ROOT.      Intra module refs:   halLcdClearScreen
+                                                   halLcdInit
+                                                   halLcdSendCommand
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB2ICTL_L           067C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB2ICTL                067C 
+           UCB2ICTL_H              067D 
+           UCB2ICTL_L              067C 
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7A65 - 7AED (0x89 bytes), align: 0
+  Segment part 18.            Intra module refs:   halLcdPrint
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fonts_lookup            7A65 
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 71F4 - 7A47 (0x854 bytes), align: 1
+  Segment part 19.            Intra module refs:   halLcdPrint
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           fonts                   71F4 
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1CA2 - 1D0D (0x6c bytes), align: 0
+  Segment part 20.            Intra module refs:   ?Subroutine1
+                                                   halLcdActive
+                                                   halLcdInit
+                                                   halLcdSetContrast
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LcdInitMacro            1CA2 
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1D0E - 1D13 (0x6 bytes), align: 0
+  Segment part 24.            Intra module refs:   ?Subroutine2
+                                                   ?Subroutine7
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Draw_Block_Value_Macro
+                                   1D0E 
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1D14 - 1D19 (0x6 bytes), align: 0
+  Segment part 26.            Intra module refs:   halLcdSetAddress
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           Draw_Block_Address_Macro
+                                   1D14 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 251C - 251D (0x2 bytes), align: 1
+  Segment part 28.            Intra module refs:   ?Subroutine7
+                                                   halLcdPrint
+                                                   halLcdSetAddress
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LcdAddress              251C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 251E - 251F (0x2 bytes), align: 1
+  Segment part 29.            Intra module refs:   ?Subroutine7
+                                                   ?Subroutine8
+                                                   halLcdClearScreen
+                                                   halLcdSetAddress
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LcdTableAddress         251E 
+    -------------------------------------------------------------------------
+DATA20_I
+  Relative segment, address: 1D1A - 1D1A (0x1 bytes), align: 0
+  Segment part 32.            Intra module refs:   halLcdBackLightInit
+                                                   halLcdSetBackLight
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           backlight               1D1A 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 2520 - 33BB (0xe9c bytes), align: 1
+  Segment part 34.            Intra module refs:   ?Subroutine7
+                                                   ?Subroutine8
+                                                   halLcdPrint
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           LCD_MEM                 2520 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5C56 - 5C7F (0x2a bytes), align: 1
+  Segment part 35.            Intra module refs:   ?Subroutine1
+                                                   ?Subroutine7
+                                                   halLcdActive
+                                                   halLcdInit
+                                                   halLcdSetAddress
+                                                   halLcdSetContrast
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdSendCommand       5C56 
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5C80 - 5CB5 (0x36 bytes), align: 1
+  Segment part 36.            Intra module refs:   ?Subroutine0
+                                                   ?Subroutine5
+                                                   ?Subroutine9
+                                                   halLcdClearScreen
+                                                   halLcdPrint
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdSetAddress        5C80 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5CB6 - 5CCD (0x18 bytes), align: 1
+  Segment part 37.            Intra module refs:   halLcdPrint
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdDrawCurrentBlock
+                                   5CB6 
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5CCE - 5D97 (0xca bytes), align: 1
+  Segment part 57.            Intra module refs:   ?Subroutine0
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdPrint             5CCE 
+               calls direct
+               CSTACK = 00000000 ( 00000028 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5D98 - 5DA5 (0xe bytes), align: 1
+  Segment part 58.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdPrintLineCol      5D98            LCD_PrintLineCol (bsp)
+               calls direct
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5DA6 - 5DB5 (0x10 bytes), align: 1
+  Segment part 59.            Intra module refs:   halLcdPrintLineCol
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            5DA6 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5DB6 - 5DC5 (0x10 bytes), align: 1
+  Segment part 61.            Intra module refs:   halLcdPrintLineCol
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine15           5DB6 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5DC6 - 5DCB (0x6 bytes), align: 1
+  Segment part 64.            Intra module refs:   halLcdClearScreen
+                                                   halLcdDrawCurrentBlock
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine9            5DC6 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5DCC - 5E19 (0x4e bytes), align: 1
+  Segment part 65.            Intra module refs:   halLcdDrawCurrentBlock
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine7            5DCC 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5E1A - 5E31 (0x18 bytes), align: 1
+  Segment part 66.            Intra module refs:   halLcdDrawCurrentBlock
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine5            5E1A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5E32 - 5E5D (0x2c bytes), align: 1
+  Segment part 69.            Intra module refs:   halLcdClearScreen
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            5E32 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5E5E - 5E6B (0xe bytes), align: 1
+  Segment part 70.            Intra module refs:   ?Subroutine2
+                                                   halLcdClearScreen
+                                                   halLcdSendCommand
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine17           5E5E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7198 - 719F (0x8 bytes), align: 1
+  Segment part 71.            Intra module refs:   ?Subroutine2
+                                                   halLcdSendCommand
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine16           7198 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71A0 - 71A7 (0x8 bytes), align: 1
+  Segment part 75.            Intra module refs:   ?Subroutine2
+                                                   ?Subroutine4
+                                                   halLcdClearScreen
+                                                   halLcdSendCommand
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine18           71A0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 65E2 - 6673 (0x92 bytes), align: 1
+  Segment part 91.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdInit              65E2            BSP_Init (bsp)
+               calls direct
+               CSTACK = 00000000 ( 00000006 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E26 - 6E55 (0x30 bytes), align: 1
+  Segment part 89.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdBackLightInit     6E26            BSP_Init (bsp)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6C38 - 6C7F (0x48 bytes), align: 1
+  Segment part 87.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdSetBackLight      6C38            BSP_Init (bsp)
+               CSTACK = 00000000 ( 00000006 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6ECE - 6EF1 (0x24 bytes), align: 1
+  Segment part 85.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdSetContrast       6ECE            BSP_Init (bsp)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 66FA - 671B (0x22 bytes), align: 1
+  Segment part 78.            Intra module refs:   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdActive            66FA 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 671C - 6723 (0x8 bytes), align: 1
+  Segment part 79.            Intra module refs:   halLcdActive
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            671C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6724 - 6779 (0x56 bytes), align: 1
+  Segment part 73.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdClearScreen       6724            BSP_Init (bsp)
+               calls direct
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7118 - 7125 (0xe bytes), align: 1
+  Segment part 74.            Intra module refs:   halLcdClearScreen
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine8            7118 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7090 - 70A3 (0x14 bytes), align: 1
+  Segment part 76.            Intra module refs:   halLcdClearScreen
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine4            7090 
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7CA4 - 7D0F (0x6c bytes), align: 0
+  Segment part 21.            Intra module refs:   LcdInitMacro
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7D10 - 7D15 (0x6 bytes), align: 0
+  Segment part 25.            Intra module refs:   Draw_Block_Value_Macro
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7D16 - 7D1B (0x6 bytes), align: 0
+  Segment part 27.            Intra module refs:   Draw_Block_Address_Macro
+    -------------------------------------------------------------------------
+DATA20_ID
+  Relative segment, address: 7D1C - 7D1C (0x1 bytes), align: 0
+  Segment part 33.            Intra module refs:   backlight
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\hal_rf.r43
+  PROGRAM MODULE, NAME : hal_rf
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0220 - 0221 (0x2 bytes), align: 0
+  Segment part 1. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_PBIN_L               0220 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           PBIN                    0220 
+           PBIN_H                  0221 
+           PBIN_L                  0220 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05E0 - 05E1 (0x2 bytes), align: 0
+  Segment part 5. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0CTLW0_L          05E0 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0CTLW0               05E0 
+           UCB0CTLW0_H             05E1 
+           UCB0CTLW0_L             05E0 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05E6 - 05E7 (0x2 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0BRW_L            05E6 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0BRW                 05E6 
+           UCB0BRW_H               05E7 
+           UCB0BRW_L               05E6 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05EA - 05EA (0x1 bytes), align: 0
+  Segment part 7. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB0STAT                05EA 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05EC - 05EC (0x1 bytes), align: 0
+  Segment part 8. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB0RXBUF               05EC 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05EE - 05EE (0x1 bytes), align: 0
+  Segment part 9. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCB0TXBUF               05EE 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 05FC - 05FD (0x2 bytes), align: 0
+  Segment part 10. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCB0ICTL_L           05FC 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCB0ICTL                05FC 
+           UCB0ICTL_H              05FD 
+           UCB0ICTL_L              05FC 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\hal_usb.r43
+  PROGRAM MODULE, NAME : hal_usb
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA16_AN
+  Relative segment, address: 0600 - 0601 (0x2 bytes), align: 0
+  Segment part 4. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCA1CTLW0_L          0600 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCA1CTLW0               0600 
+           UCA1CTLW0_H             0601 
+           UCA1CTLW0_L             0600 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0606 - 0607 (0x2 bytes), align: 0
+  Segment part 5. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCA1BRW_L            0606 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCA1BRW                 0606 
+           UCA1BRW_H               0607 
+           UCA1BRW_L               0606 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 0608 - 0608 (0x1 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA1MCTL                0608 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 060C - 060C (0x1 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   USCI_A1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA1RXBUF               060C 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 060E - 060E (0x1 bytes), align: 0
+  Segment part 8. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           UCA1TXBUF               060E 
+    -------------------------------------------------------------------------
+DATA16_AN
+  Relative segment, address: 061C - 061D (0x2 bytes), align: 0
+  Segment part 9. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_UCA1ICTL_L           061C 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           UCA1ICTL                061C 
+           UCA1ICTL_H              061D 
+           UCA1ICTL_L              061C 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3C30 - 3D2E (0xff bytes), align: 0
+  Segment part 12.            Intra module refs:   USCI_A1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halUsbReceiveBuffer     3C30 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D2F - 3D2F (0x1 bytes), align: 0
+  Segment part 13.            Intra module refs:   USCI_A1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           bufferSize              3D2F 
+    -------------------------------------------------------------------------
+ISR_CODE
+  Relative segment, address: 5C36 - 5C55 (0x20 bytes), align: 1
+  Segment part 14.            Intra module refs:   USCI_A1_ISR::??INTVEC 92
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A1_ISR             5C36 
+               interrupt function
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFDD (0x5e bytes), align: 1
+  Segment part 10. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           USCI_A1_ISR::??INTVEC 92
+                                   FFDC 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\lib_ascii.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\lib_mem.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\lib_str.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_core.r43
+  PROGRAM MODULE, NAME : os_core
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA20_Z
+  Relative segment, address: 33BC - 33BF (0x4 bytes), align: 1
+  Segment part 4.             Intra module refs:   ?Subroutine2
+                                                   OSInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSCtxSwCtr              33BC            AppTask2 (app)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 33C0 - 33C3 (0x4 bytes), align: 1
+  Segment part 5.             Intra module refs:   OS_InitEventList
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSEventFreeList         33C0 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 33C4 - 349F (0xdc bytes), align: 1
+  Segment part 6.             Intra module refs:   OS_InitEventList
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSEventTbl              33C4 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 34A0 - 34DB (0x3c bytes), align: 1
+  Segment part 7.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSFlagTbl               34A0            OS_FlagInit (os_flag)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 34DC - 34DF (0x4 bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSFlagFreeList          34DC            OS_FlagInit (os_flag)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D30 - 3D30 (0x1 bytes), align: 0
+  Segment part 9.             Intra module refs:   OSInit
+                                                   OSIntExit
+                                                   Segment part 65
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSIntNesting            3D30            OSTimeDly (os_time)
+                                                   OSTimeDlyHMSM (os_time)
+                                                   Segment part 0 (os_cpu_a)
+                                                   Segment part 17 (os_task)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D31 - 3D31 (0x1 bytes), align: 0
+  Segment part 10.            Intra module refs:   OSInit
+                                                   OSIntExit
+                                                   OS_Sched
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSLockNesting           3D31            OSTimeDly (os_time)
+                                                   OSTimeDlyHMSM (os_time)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D32 - 3D32 (0x1 bytes), align: 0
+  Segment part 11.            Intra module refs:   ?Subroutine1
+                                                   OSInit
+                                                   OSStart
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSPrioCur               3D32            Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D33 - 3D33 (0x1 bytes), align: 0
+  Segment part 12.            Intra module refs:   ?Subroutine1
+                                                   OSInit
+                                                   OSStart
+                                                   OS_SchedNew
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSPrioHighRdy           3D33            Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D34 - 3D34 (0x1 bytes), align: 0
+  Segment part 13.            Intra module refs:   OSInit
+                                                   OSTimeTick
+                                                   OS_SchedNew
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSRdyGrp                3D34            OSTimeDly (os_time)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D35 - 3D3C (0x8 bytes), align: 0
+  Segment part 14.            Intra module refs:   OSInit
+                                                   OSTimeTick
+                                                   OS_SchedNew
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSRdyTbl                3D35            OSTimeDly (os_time)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D3D - 3D3D (0x1 bytes), align: 0
+  Segment part 15.            Intra module refs:   ?Subroutine5
+                                                   OSInit
+                                                   OSStart
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSRunning               3D3D            ?Subroutine1 (os_task)
+                                                   Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D3E - 3D3E (0x1 bytes), align: 0
+  Segment part 16.            Intra module refs:   OSInit
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskCtr               3D3E 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 34E0 - 34E3 (0x4 bytes), align: 1
+  Segment part 17.            Intra module refs:   OSInit
+                                                   OS_TaskIdle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSIdleCtr               34E0 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 34E4 - 35E3 (0x100 bytes), align: 1
+  Segment part 18.            Intra module refs:   OSInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskIdleStk           34E4 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 35E4 - 35E7 (0x4 bytes), align: 1
+  Segment part 19.            Intra module refs:   OSInit
+                                                   OSStart
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBCur                35E4            OSTaskNameSet (os_task)
+                                                   OSTimeDly (os_time)
+                                                   Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 35E8 - 35EB (0x4 bytes), align: 1
+  Segment part 20.            Intra module refs:   OS_InitTCBList
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBFreeList           35E8 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 35EC - 35EF (0x4 bytes), align: 1
+  Segment part 21.            Intra module refs:   ?Subroutine7
+                                                   OSInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBHighRdy            35EC            Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 35F0 - 35F3 (0x4 bytes), align: 1
+  Segment part 22.            Intra module refs:   OSTimeTick
+                                                   OS_InitTCBList
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBList               35F0 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 35F4 - 36F3 (0x100 bytes), align: 1
+  Segment part 23.            Intra module refs:   ?Subroutine7
+                                                   OS_InitTCBList
+                                                   OS_TCBInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBPrioTbl            35F4            ?Subroutine1 (os_task)
+                                                   ?Subroutine7 (os_task)
+                                                   ?Subroutine8 (os_task)
+                                                   Segment part 21 (os_task)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 36F4 - 3AA5 (0x3b2 bytes), align: 1
+  Segment part 24.            Intra module refs:   OS_InitTCBList
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBTbl                36F4 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3D3F - 3D3F (0x1 bytes), align: 0
+  Segment part 25.            Intra module refs:   OSTimeTick
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTickStepState         3D3F 
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3AA6 - 3AA9 (0x4 bytes), align: 1
+  Segment part 26.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSMemFreeList           3AA6            OS_MemInit (os_mem)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3AAA - 3B21 (0x78 bytes), align: 1
+  Segment part 27.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSMemTbl                3AAA            OS_MemInit (os_mem)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3B22 - 3B25 (0x4 bytes), align: 1
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSQFreeList             3B22            OS_QInit (os_q)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3B26 - 3B85 (0x60 bytes), align: 1
+  Segment part 29.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSQTbl                  3B26            OS_QInit (os_q)
+    -------------------------------------------------------------------------
+DATA20_Z
+  Relative segment, address: 3B86 - 3B89 (0x4 bytes), align: 1
+  Segment part 30.            Intra module refs:   OSInit
+                                                   OSTimeTick
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTime                  3B86            AppTask1 (app)
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7AEE - 7AEF (0x2 bytes), align: 0
+  Segment part 2.             Intra module refs:   OS_InitEventList
+                                                   OS_InitTCBList
+                                                   OS_TCBInit
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7AF0 - 7AFD (0xe bytes), align: 0
+  Segment part 3.             Intra module refs:   OSInit
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7AFE - 7BFD (0x100 bytes), align: 0
+  Segment part 31.            Intra module refs:   OS_SchedNew
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSUnMapTbl              7AFE 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71A8 - 71AF (0x8 bytes), align: 1
+  Segment part 65.            Intra module refs:   OS_Sched
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71C0 - 71C5 (0x6 bytes), align: 1
+  Segment part 59.            Intra module refs:   OSIntExit
+                                                   OS_Sched
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            71C0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6256 - 6325 (0xd0 bytes), align: 1
+  Segment part 61.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSInit                  6256            main (app)
+               calls direct
+               CSTACK = 00000000 ( 00000016 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71B0 - 71B7 (0x8 bytes), align: 1
+  Segment part 54.            Intra module refs:   OSIntExit
+                                                   OSTimeTick
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine5            71B0 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6D42 - 6D7D (0x3c bytes), align: 1
+  Segment part 55.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSIntExit               6D42            Segment part 0 (os_cpu_a)
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 707A - 708F (0x16 bytes), align: 1
+  Segment part 56.            Intra module refs:   OSIntExit
+                                                   OS_Sched
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            707A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7036 - 704D (0x18 bytes), align: 1
+  Segment part 57.            Intra module refs:   OSIntExit
+                                                   OS_Sched
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            7036 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70EE - 70FB (0xe bytes), align: 1
+  Segment part 58.            Intra module refs:   ?Subroutine1
+                                                   OSStart
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine7            70EE 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6EA8 - 6ECD (0x26 bytes), align: 1
+  Segment part 51.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSStart                 6EA8            main (app)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 649C - 654D (0xb2 bytes), align: 1
+  Segment part 50.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTimeTick              649C            Segment part 0 (os_cpu_a)
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6A38 - 6A95 (0x5e bytes), align: 1
+  Segment part 40.            Intra module refs:   OSInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           OS_InitEventList        6A38 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 677A - 67E3 (0x6a bytes), align: 1
+  Segment part 39.            Intra module refs:   OSInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           OS_InitTCBList          677A 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 70B8 - 70CB (0x14 bytes), align: 1
+  Segment part 38.            Intra module refs:   OS_InitEventList
+                                                   OS_InitTCBList
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_MemClr               70B8            OS_FlagInit (os_flag)
+                                                   OS_MemInit (os_mem)
+                                                   OS_QInit (os_q)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E56 - 6E81 (0x2c bytes), align: 1
+  Segment part 36.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_Sched                6E56            ?Subroutine1 (os_task)
+                                                   OSTimeDly (os_time)
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6E82 - 6EA7 (0x26 bytes), align: 1
+  Segment part 35.            Intra module refs:   ?Subroutine1
+                                                   OSStart
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           OS_SchedNew             6E82 
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F78 - 6F93 (0x1c bytes), align: 1
+  Segment part 33.            Intra module refs:   OSInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_TaskIdle             6F78 
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5E6C - 5FAF (0x144 bytes), align: 1
+  Segment part 32.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_TCBInit              5E6C            OSTaskCreateExt (os_task)
+               calls direct
+               CSTACK = 00000000 ( 0000001C )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_cpu_a.r43
+  PROGRAM MODULE, NAME : os_cpu_a
+
+Absolute parts
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           __MSP430F5304__         0000 
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6186 - 6255 (0xd0 bytes), align: 1
+  Segment part 0. ROOT.       Intra module refs:   WDT_VEC
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSCtxSw                 61AC            OS_Sched (os_core)
+           OSIntCtxSw              61F0            OSIntExit (os_core)
+           OSStartHighRdy          6190            OSStart (os_core)
+           OS_CPU_SR_Save          6186            ?Subroutine1 (os_task)
+                                                   ?Subroutine2 (os_task)
+                                                   OSIntExit (os_core)
+                                                   OSTaskNameSet (os_task)
+                                                   OSTimeDly (os_time)
+                                                   OSTimeTick (os_core)
+                                                   OS_Sched (os_core)
+                                                   OS_TCBInit (os_core)
+                                                   OS_TaskIdle (os_core)
+           OS_CPU_SR_Restore       618C            ?Subroutine0 (os_core)
+                                                   ?Subroutine1 (os_task)
+                                                   ?Subroutine5 (os_task)
+                                                   ?Subroutine6 (os_task)
+                                                   ?Subroutine7 (os_task)
+                                                   OSTaskCreateExt (os_task)
+                                                   OSTaskNameSet (os_task)
+                                                   OSTimeDly (os_time)
+                                                   OSTimeTick (os_core)
+                                                   OS_TCBInit (os_core)
+                                                   OS_TaskIdle (os_core)
+           WDT_ISR                 6210 
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WDT_ISR_1               622E 
+           WDT_ISR_2               6252 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: FF80 - FFF5 (0x76 bytes), align: 1
+  Segment part 1. ROOT.
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           WDT_VEC                 FFF4 
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_cpu_c.r43
+  PROGRAM MODULE, NAME : os_cpu_c
+
+  SEGMENTS IN THE MODULE
+  ======================
+DATA20_Z
+  Relative segment, address: 3B8A - 3B8D (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSISRStkPtr             3B8A            Segment part 0 (os_cpu_a)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71E4 - 71E5 (0x2 bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSInitHookBegin         71E4            OSInit (os_core)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71E6 - 71E7 (0x2 bytes), align: 1
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSInitHookEnd           71E6            OSInit (os_core)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71F0 - 71F1 (0x2 bytes), align: 1
+  Segment part 10.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskCreateHook        71F0            OS_TCBInit (os_core)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71F2 - 71F3 (0x2 bytes), align: 1
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskIdleHook          71F2            OS_TaskIdle (os_core)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 5FB0 - 60AF (0x100 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskStkInit           5FB0            ?Subroutine10 (os_task)
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71EE - 71EF (0x2 bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskSwHook            71EE            Segment part 0 (os_cpu_a)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71EC - 71ED (0x2 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTCBInitHook           71EC            OS_TCBInit (os_core)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71EA - 71EB (0x2 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTimeTickHook          71EA            OSTimeTick (os_core)
+               CSTACK = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_dbg.r43
+  PROGRAM MODULE, NAME : os_dbg
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 71E8 - 71E9 (0x2 bytes), align: 1
+  Segment part 58.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSDebugInit             71E8            OSInit (os_core)
+               CSTACK = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_flag.r43
+  PROGRAM MODULE, NAME : os_flag
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6A96 - 6AF1 (0x5c bytes), align: 1
+  Segment part 5.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_FlagInit             6A96            OSInit (os_core)
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7BFE - 7BFF (0x2 bytes), align: 0
+  Segment part 2.             Intra module refs:   OS_FlagInit
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_mbox.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_mem.r43
+  PROGRAM MODULE, NAME : os_mem
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6B48 - 6B9B (0x54 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_MemInit              6B48            OSInit (os_core)
+               calls direct
+               CSTACK = 00000000 ( 00000008 )
+    -------------------------------------------------------------------------
+DATA20_C
+  Relative segment, address: 7C00 - 7C01 (0x2 bytes), align: 0
+  Segment part 2.             Intra module refs:   OS_MemInit
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_mutex.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_q.r43
+  PROGRAM MODULE, NAME : os_q
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6CC4 - 6D03 (0x40 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OS_QInit                6CC4            OSInit (os_core)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_sem.r43
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_task.r43
+  PROGRAM MODULE, NAME : os_task
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 7186 - 718F (0xa bytes), align: 1
+  Segment part 25.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine6            7186 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7132 - 7135 (0x4 bytes), align: 1
+  Segment part 16.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            7132 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7136 - 713D (0x8 bytes), align: 1
+  Segment part 17.            Intra module refs:   ?Subroutine2
+                                                   OSTaskNameSet
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 710A - 710D (0x4 bytes), align: 1
+  Segment part 20.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine9            710A 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 710E - 7117 (0xa bytes), align: 1
+  Segment part 21.            Intra module refs:   ?Subroutine9
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 715E - 7167 (0xa bytes), align: 1
+  Segment part 23.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine10           715E 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7154 - 715D (0xa bytes), align: 1
+  Segment part 24.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine7            7154 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6EF2 - 6F15 (0x24 bytes), align: 1
+  Segment part 26.            Intra module refs:   OSTaskCreateExt
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            6EF2 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6978 - 69D9 (0x62 bytes), align: 1
+  Segment part 19.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskCreateExt         6978            AppTaskCreate (app)
+                                                   OSInit (os_core)
+                                                   main (app)
+               calls direct
+               CSTACK = 00000000 ( 00000026 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 7172 - 717B (0xa bytes), align: 1
+  Segment part 13.            Intra module refs:   OSTaskNameSet
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine8            7172 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 717C - 7185 (0xa bytes), align: 1
+  Segment part 14.            Intra module refs:   OSTaskNameSet
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine5            717C 
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6BEC - 6C37 (0x4c bytes), align: 1
+  Segment part 12.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTaskNameSet           6BEC            AppTaskCreate (app)
+                                                   OSInit (os_core)
+                                                   main (app)
+               calls direct
+               CSTACK = 00000000 ( 00000014 )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_time.r43
+  PROGRAM MODULE, NAME : os_time
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6AF2 - 6B47 (0x56 bytes), align: 1
+  Segment part 5.             Intra module refs:   OSTimeDlyHMSM
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTimeDly               6AF2 
+               calls direct
+               CSTACK = 00000000 ( 0000000C )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 6674 - 66F9 (0x86 bytes), align: 1
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           OSTimeDlyHMSM           6674            Segment part 31 (app)
+               calls direct
+               CSTACK = 00000000 ( 0000001C )
+
+    *************************************************************************
+
+  FILE NAME : F:\embeded system\ucos2\ucOS ii\TI msp430\Micrium\Software\EvalBoards\TI\MSP-EXP430F5438\IAR\uCOS-II\Debug\Obj\os_tmr.r43
+    *************************************************************************
+
+  FILE NAME : F:\Program Files\IAR Systems\Embedded Workbench 6.0 Evaluation\430\LIB\DLIB\dl430xldn.r43
+  LIBRARY MODULE, NAME : ?Mul32Hw32Loc2
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F38 - 6F59 (0x22 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?Mul32Hw32Loc2          6F38            BSP_FormatDec (bsp)
+                                                   OSTimeDlyHMSM (os_time)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__dbg_break
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 71E2 - 71E3 (0x2 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __DebugBreak            71E2            __exit (?__exit)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?__exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 704E - 7063 (0x16 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __exit                  704E            Segment part 5 (?_exit)
+                                                   _exit (?_exit)
+               calls direct
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?_exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 71D2, align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _exit                   71D2            exit (?exit)
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71D2 - 71D5 (0x4 bytes), align: 1
+  Segment part 5.             Intra module refs:   _exit
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?exit
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 71DE - 71E1 (0x4 bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    71DE            Segment part 19 (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod816u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6FCC - 6FE7 (0x1c bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod8u               6FCC            ?Subroutine3 (app)
+           ?DivMod16u              6FD0 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DivMod32u
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6C80 - 6CC3 (0x44 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DivMod32u              6C80            ?Subroutine0 (bsp)
+                                                   BSP_FormatDec (bsp)
+                                                   OSTimeDlyHMSM (os_time)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?OneBitMask32
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F16 - 6F37 (0x22 bytes), align: 1
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?OneBitMask32           6F16            OS_TCBInit (os_core)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 6F5A - 6F77 (0x1e bytes), align: 1
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  6F5A            __data20_memcpy (?memzero)
+               CSTACK = 00000000 ( 0000000C )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memzero
+
+  SEGMENTS IN THE MODULE
+  ======================
+<CODE> 1 (was CODE)
+  Relative segment, address: 701E - 7035 (0x18 bytes), align: 1
+  Segment part 4.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data20_memzero        701E            ?cstart_init_zero20 (?cstart)
+               CSTACK = 00000000 ( 00000004 )
+    -------------------------------------------------------------------------
+<CODE> 1 (was CODE)
+  Relative segment, address: 71D6 - 71D9 (0x4 bytes), align: 1
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __data20_memcpy         71D6            ?cstart_init_copy20 (?cstart)
+               calls direct
+               CSTACK = 00000000 ( 00000004 )
+
+
+
+
+                ****************************************
+                *                                      *
+                *            MODULE SUMMARY            *
+                *                                      *
+                ****************************************
+
+Module               CODE      DATA      CONST
+------               ----      ----      -----
+                    (Rel)  (Rel)  (Abs)  (Rel)
+?DivMod32u             68
+?DivMod816u            28
+?Mul32Hw32Loc2         34
+?OneBitMask32          34
+?__dbg_break            2
+?__exit                22
+?_exit                  4
+?cstart                54
+?exit                   4
+?memcpy                30
+?memzero               28
+?reset_vector           2
+HAL_FLASH                             4
+HAL_PMM               336            10
+HAL_UCS               272            12
+  + shared                            2
+app                   950  2 372           191
+bsp                   232             6
+hal_board                            12
+  + shared                           30
+hal_buttons            30            10
+hal_lcd             1 014  3 865     17  2 390
+hal_rf                               11
+hal_usb                32    256      9
+  + common             94
+os_core             1 220  2 014           272
+os_cpu_a              208
+  + common            118
+os_cpu_c              270      4
+os_dbg                  2
+os_flag                92                    2
+os_mem                 84                    2
+os_q                   64
+os_task               286
+os_time               220
+N/A (command line)           160
+N/A (alignment)
+----------          -----  -----    ---  -----
+Total:              5 622  8 671    123  2 857
+  + common            118
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              0100 - 0103               4   rel    0
+                                       0120 - 0121               2 
+                                       0124 - 0127               4 
+                                       012C - 012F               4 
+                                       0140 - 0141               2 
+                                       0144 - 0145               2 
+                                       015C - 015D               2 
+                                       0160 - 0169               A 
+                                       016C - 016F               4 
+                                       0200 - 0207               8 
+                                       020A - 020B               2 
+                                       0218 - 021D               6 
+                                       0220 - 0225               6 
+                                       022A - 022B               2 
+                                       0242 - 0247               6 
+                                       024A - 024B               2 
+                                       0262 - 0265               4 
+                                       026A - 026B               2 
+                                       0282 - 0285               4 
+                                       028A - 028B               2 
+                                       02A2 - 02A5               4 
+                                       02AA - 02AB               2 
+                                       0322 - 0325               4 
+                                       0340 - 0341               2 
+                                       0348 - 0349               2 
+                                       0352 - 0353               2 
+                                       0358 - 0359               2 
+                                       05E0 - 05E1               2 
+                                       05E6 - 05E7               2 
+                                       05EA - 05EA               1 
+                                       05EC - 05EC               1 
+                                       05EE - 05EE               1 
+                                       05FC - 05FD               2 
+                                       0600 - 0601               2 
+                                       0606 - 0608               3 
+                                       060C - 060C               1 
+                                       060E - 060E               1 
+                                       061C - 061D               2 
+                                       0660 - 0661               2 
+                                       0666 - 0667               2 
+                                       066A - 066A               1 
+                                       066C - 066C               1 
+                                       066E - 066E               1 
+                                       067C - 067D               2 
+DATA20_I                               1C00 - 1D1A             11B   rel    1
+DATA20_Z                               1D1C - 3D3F            2024   rel    1
+CSTACK                                 5B60 - 5BFF              A0   rel    1
+CSTART                                 5C00 - 5C35              36   rel    1
+ISR_CODE                               5C36 - 5C55              20   rel    1
+<CODE> 1                               5C56 - 71F3            159E   rel    1
+DATA20_C                               71F4 - 7C01             A0E   rel    1
+DATA20_ID                              7C02 - 7D1C             11B   rel    1
+INTVEC                                 FF80 - FFF5              76   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 5 740 bytes of CODE  memory
+ 8 671 bytes of DATA  memory (+ 123 absolute )
+ 2 857 bytes of CONST memory
+
+Errors: none
+Warnings: none
+
